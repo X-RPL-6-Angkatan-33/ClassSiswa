@@ -18,4 +18,11 @@ public class Siswa {
         this.nama = nama;
         this.ipk = ipk;
     }
+
+    //method
+    public void print() {
+        System.out.println("ID : " + id);
+        System.out.println("Nama : " + nama);
+        System.out.println("IPK : " + ipk);
+    }
 }

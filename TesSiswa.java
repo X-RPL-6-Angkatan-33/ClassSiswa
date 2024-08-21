@@ -27,5 +27,8 @@ public class TesSiswa {
         System.out.println(lia.id);
         System.out.println(lia.nama);
         System.out.println(lia.ipk);
+
+        ria.print();
+        cahya.print();
     }
 }
