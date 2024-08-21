@@ -11,4 +11,11 @@ public class Siswa {
         nama = "";
         ipk = 0;
     }
+
+    //Constructor Parameter
+    public Siswa(int id, String nama, double ipk) {
+        this.id = id;
+        this.nama = nama;
+        this.ipk = ipk;
+    }
 }
